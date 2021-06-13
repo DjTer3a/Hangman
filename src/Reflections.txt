@@ -1,0 +1,59 @@
+//Methods - used HangmanMethods2
+
+added getKnownSoFar method and refactoring to accomodate new methods
+
+most of the methods worked correctly, minor changes in order to fit style guidlines.
+
+added more comprehensive javadoc comments.
+
+
+//Constructor - used HangmanConstructor1
+
+chooseSecretWord changed to StringBuffer so that secret word is also a 
+StringBuffer to reduce jargon and prevent type mismatch errors.
+  
+knownSoFar was changed from String to StringBuffer type.
+ 
+knownSoFar was called but not insantiated.
+
+for loop added in order to change all the letters and not just one.
+
+added more comprehensive javadoc comments.
+
+refactored code to fit the new changes.
+
+//tryThis method - used tryThis2
+
+code not working.
+
+many structural mistakes.
+
+total rebuilding of the method took place.
+
+added more comprehensive javadoc comments.
+
+refactored code to fit the new changes.
+
+	
+//chooseSecretWord method - used chooseSecretWord1
+
+chooseSecretWord changed to StringBuffer so that secret word is also a 
+StringBuffer to reduce jargon and prevent type mismatch errors.
+
+added more comprehensive javadoc comments.
+
+refactored code to fit the new changes.
+
+
+//Created HangmanTest to test and run the Hangman game.
+Writing your own code is faster and easier to debug than debugging other's code.
+
+
+
+To avoid similar problems to the ones stated above in the future:- 
+	More in depth documentation given.
+	For and if loops are written with comments giving parameter and expected output.
+	Type mismatch should be kept note of while writing code.
+	Private shouldn't be used for all variables.
+	Tasks should be ordered by their place in the actual code.
+	The style guidelines should always be followed when writing code.
